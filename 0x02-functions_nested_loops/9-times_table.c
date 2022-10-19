@@ -1,15 +1,13 @@
 #include "main.h"
-#include "stdio.h"
+#include <stdio.h>
 /**
  * times_table -  a function that prints the 9 times table, starting with 0
  * r = row, c = column, d = digits of current result
  * Return: times table
  * add extra space past single digit
  */
-void times_table(void);
-
 int main(void)
-{
+{	
 	char r, c, d;
 
 	for (r = 0; r <= 9; r++)
@@ -37,8 +35,10 @@ int main(void)
 		}
 		putchar('\n');
 	}
-
-return (0);
-
+	int times_table(char *d)
+	{
+	printf("%d", *d);
+	return (0);
+	}
 }
 
