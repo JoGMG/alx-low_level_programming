@@ -21,7 +21,7 @@
 - You are not allowed to use printf
 - Your program should end with the value 0
 
-[5-printf.c](https://github.com/JoGMG/alx-low_level_programming/blob/main/0x00-hello_world/5-printf.c) - Write a C program that prints exactly with proper grammar, but the outcome is a piece of art,, followed by a new line.
+[5-printf.c](https://github.com/JoGMG/alx-low_level_programming/blob/main/0x00-hello_world/5-printf.c) - Write a C program that prints exactly with proper grammar, but the outcome is a piece of art, , followed by a new line.
 - Use the function printf
 - You are not allowed to use the function puts
 - Your program should return 0
