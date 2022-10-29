@@ -2,12 +2,10 @@
 [0-main.c, main.h]() - In most projects, we often give you only one main file to test with. For example, this main file is a test for a `postitive_or_negative()` function similar to the one you worked with in an [an earlier C project](https://alx-intranet.hbtn.io/tasks/831):
 `carrie@ubuntu:/debugging$ cat main.c
 #include "main.h"
-
 /**
 * main - tests function that prints if integer is positive or negative
 * Return: 0
 */
-
 int main(void)
 {
         int i;
@@ -21,11 +19,8 @@ carrie@ubuntu:/debugging$`
 `carrie@ubuntu:/debugging$ cat main.h
 #ifndef MAIN_H
 #define MAIN_H
-
 #include <stdio.h>
-
 void positive_or_negative(int i);
-
 #endif /* MAIN_H */
 carrie@ubuntu:/debugging$`
 `carrie@ubuntu:/debugging$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 positive_or_negative.c main.c
@@ -42,12 +37,10 @@ You are not coding the solution / function, you’re just testing it! However, y
 - You do not have to compile with `-Wall -Werror -Wextra -pedantic` for this task.
 `carrie@ubuntu:/debugging$ cat 1-main.c
 #include <stdio.h>
-
 /**
 * main - causes an infinite loop
 * Return: 0
 */
-
 int main(void)
 {
         int i;
@@ -79,12 +72,10 @@ carrie@ubuntu:/debugging$`
 `carrie@ubuntu:/debugging$ cat 2-main.c
 #include <stdio.h>
 #include "main.h"
-
 /**
 * main - prints the largest of 3 integers
 * Return: 0
 */
-
 int main(void)
 {
         int a, b, c;
@@ -103,7 +94,6 @@ int main(void)
 carrie@ubuntu:/debugging$`
 `carrie@ubuntu:/debugging$ cat 2-largest_number.c
 #include "main.h"
-
 /**
  * largest_number - returns the largest of 3 numbers
  * @a: first integer
@@ -111,7 +101,6 @@ carrie@ubuntu:/debugging$`
  * @c: third integer
  * Return: largest number
  */
-
 int largest_number(int a, int b, int c)
 {
     int largest;
@@ -131,7 +120,6 @@ int largest_number(int a, int b, int c)
 
     return (largest);
 }
-
 carrie@ubuntu:/debugging$`
 `carrie@ubuntu:/debugging$ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 2-largest_number.c 2-main.c -o 2-main
 carrie@ubuntu:/debugging$ ./2-main
@@ -145,13 +133,11 @@ Fix the code in `2-largest_number.c` so that it correctly prints out the largest
 `carrie@ubuntu:/debugging$ cat 3-main_a.c
 #include <stdio.h>
 #include "main.h"
-
 /**
 * main - takes a date and prints how many days are left in the year, taking
 * leap years into account
 * Return: 0
 */
-
 int main(void)
 {
     int month;
@@ -170,11 +156,9 @@ int main(void)
 
     return (0);
 }
-
 carrie@ubuntu:/debugging$`
 `carrie@ubuntu:/debugging$ cat 3-convert_day.c
 #include "main.h"
-
 /**
 * convert_day - converts day of month to day of year, without accounting
 * for leap year
@@ -182,7 +166,6 @@ carrie@ubuntu:/debugging$`
 * @day: day of month
 * Return: day of year
 */
-
 int convert_day(int month, int day)
 {
     switch (month)
@@ -225,12 +208,10 @@ int convert_day(int month, int day)
     }
     return (day);
 }
-
 carrie@ubuntu:/debugging$`
 `carrie@ubuntu:/debugging$ cat 3-print_remaining_days.c
 #include <stdio.h>
 #include "main.h"
-
 /**
 * print_remaining_days - takes a date and prints how many days are
 * left in the year, taking leap years into account
@@ -239,7 +220,6 @@ carrie@ubuntu:/debugging$`
 * @year: year
 * Return: void
 */
-
 void print_remaining_days(int month, int day, int year)
 {
     if ((year % 4 == 0 || year % 400 == 0) && !(year % 100 == 0))
@@ -265,7 +245,6 @@ void print_remaining_days(int month, int day, int year)
         }
     }
 }
-
 carrie@ubuntu:/debugging$`
 `carrie@ubuntu:/debugging$ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 3-convert_day.c 3-print_remaining_days.c 3-main_a.c -o 3-main_a 
 carrie@ubuntu:/debugging$ ./3-main_a
