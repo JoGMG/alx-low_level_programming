@@ -1,5 +1,5 @@
 # 0x03. C - Debugging
-[0-main.c, main.h]() - In most projects, we often give you only one main file to test with. For example, this main file is a test for a `postitive_or_negative()` function similar to the one you worked with in an [an earlier C project](https://alx-intranet.hbtn.io/tasks/831):
+[0-main.c, main.h](https://github.com/JoGMG/alx-low_level_programming/blob/main/0x03-debugging/0-main.c) - In most projects, we often give you only one main file to test with. For example, this main file is a test for a `postitive_or_negative()` function similar to the one you worked with in an [an earlier C project](https://alx-intranet.hbtn.io/tasks/831):
 ```
 carrie@ubuntu:/debugging$ cat main.c
 #include "main.h"
@@ -51,7 +51,7 @@ carrie@ubuntu:/debugging$ wc -l 0-main.c
 carrie@ubuntu:/debugging$ 
 ```
 
-[1-main.c]() - Copy this main file. Comment out (don’t delete it!) the part of the code that is causing the output to go into an infinite loop.
+[1-main.c](https://github.com/JoGMG/alx-low_level_programming/blob/main/0x03-debugging/1-main.c) - Copy this main file. Comment out (don’t delete it!) the part of the code that is causing the output to go into an infinite loop.
 - Don’t add or remove any lines of code, as we will be checking your line count. You are only allowed to comment out existing code.
 - You do not have to compile with `-Wall -Werror -Wextra -pedantic` for this task.
 ```
@@ -93,7 +93,7 @@ carrie@ubuntu:/debugging$ wc -l 1-main.c
 carrie@ubuntu:/debugging$
 ```
 
-[2-largest_number.c, main.h]() - This program prints the largest of three integers.
+[2-largest_number.c, main.h](https://github.com/JoGMG/alx-low_level_programming/blob/main/0x03-debugging/2-largest_number.c) - This program prints the largest of three integers.
 ```
 carrie@ubuntu:/debugging$ cat 2-main.c
 #include <stdio.h>
@@ -164,7 +164,7 @@ carrie@ubuntu:/debugging$
 Fix the code in `2-largest_number.c` so that it correctly prints out the largest of three numbers, no matter the case.
 - Line count will not be checked for this task.
 
-[3-print_remaining_days.c, main.h]() - This program converts a date to the day of year and determines how many days are left in the year, taking leap year into consideration.
+[3-print_remaining_days.c, main.h](https://github.com/JoGMG/alx-low_level_programming/blob/main/0x03-debugging/3-print_remaining_days.c) - This program converts a date to the day of year and determines how many days are left in the year, taking leap year into consideration.
 ```
 carrie@ubuntu:/debugging$ cat 3-main_a.c
 #include <stdio.h>
