@@ -3,7 +3,7 @@
 
 /**
  * main - prints name
- * @name - name of 
+ * @name - name of
  */
 
 void print_name(char *name, void (*f)(char *))
