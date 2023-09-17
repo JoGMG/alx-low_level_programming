@@ -32,7 +32,7 @@ int binary_search(int *array, size_t size, int value)
 			right = i - 1;
 		else
 			return (i);
-			
+
 	}
 
 	return (-1);
