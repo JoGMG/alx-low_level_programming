@@ -8,7 +8,7 @@
  *
  * Return: a pointer to the first node where value is located,
  *         otherwise -1 if the value is not present or the array
- *         is NULL. 
+ *         is NULL.
  */
 skiplist_t *linear_skip(skiplist_t *list, int value)
 {
