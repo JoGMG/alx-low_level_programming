@@ -2,7 +2,8 @@
 
 /**
   * advanced_binary_recursive - searches recursively for a value in a sorted
-  *                             array of integers using binary search algorithm.
+  *                             array of integers using binary search
+  *                             algorithm.
   * @array: pointer to the first element of the array to search in.
   * @left: start index of the array.
   * @right: last index of the array.
