@@ -1,4 +1,5 @@
 # ALX Low Level Programming
+![ALX Logo](https://ibb.co/GVyh8hK)
 ## Resources
 ### Read or watch:
 - [Everything you need to know to start with C.pdf](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/misc/2022/4/e0ccf91eec6b977a9e00ed384dc285df9c2772e3.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20240514%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240514T083040Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=eba82ad7288dc8e5e5e64ef6415224678688d867a82c487ab78cb40403546dde) (You do not have to learn everything in there yet, but make sure you read it entirely first)
